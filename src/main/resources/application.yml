@@ -1,0 +1,9 @@
+# config datasource
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    # schema: classpath: db/schema-mysql.sql
+    # data: calsspath: db/data-mysql.sql
+    url: jdbc:mysql://127.0.0.1:3306/mybatis_plus?characterEncoding=UTF-8&useUnicode=true&useSSL=false&tinyInt1isBit=false&serverTimezone=UTC
+    username: root
+    password: 1234
